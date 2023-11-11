@@ -49,17 +49,32 @@
 
   @keyframes rotate {
     100% {
-      background-position: 
+      background-position:
         25% 50%;
     }
   }
 
-} 
+  ::-webkit-scrollbar {
+    /* Customize the scrollbar width */
+    width: 3px;
+    height: 3px;
+    border-radius: 2px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #09090a;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #adadb7;
+    border-radius: 50px;
+  }
+
+}
 
 @layer components {
   .btn-primary {
-    @apply bg-white text-black rounded-md block p-2 font-medium text-sm
-    hover:bg-white/90 transition-all
+    @apply bg-white text-black rounded-md block p-2 font-medium text-sm hover:bg-white/90 transition-all
   }
 
 

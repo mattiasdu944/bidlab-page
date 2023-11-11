@@ -21,12 +21,6 @@ export const NavMenu = () => {
                     <li>
                         <a href="#games">Juegos</a>
                     </li>
-                    <li>
-                        <a href="#">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="#">Inicio</a>
-                    </li>
                 </ul>
 
                 <a className='btn-primary' href="#contact">Contacto</a>
