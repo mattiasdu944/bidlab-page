@@ -1,3 +1,5 @@
+export { TeamSection } from "./TeamSection";
+
 export { ContactSection } from "./ContactSection";
 
 export { GameSection } from "./GameSection";

@@ -27,7 +27,7 @@
 
 @layer utilities {
   .navbar {
-    @apply fixed w-full border-b border-white/25 bg-black/30
+    @apply fixed w-full border-b border-white/25 bg-black/30 z-[100]
   }
 
   .navbar__container {
@@ -80,5 +80,9 @@
 
   .text-gradient {
     @apply text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400
+  }
+
+  .card {
+    @apply max-w-md bg-gradient-to-t from-blue-500 to-indigo-500 p-1 rounded-md hover:scale-105 hover:shadow-2xl hover:shadow-indigo-500/50 transition-all
   }
 }

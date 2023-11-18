@@ -1,3 +1,4 @@
+import apoloGame from "../assets/apolo-game.mp4";
 
 
 export const NavMenu = () => {
@@ -5,9 +6,12 @@ export const NavMenu = () => {
         <nav className='navbar'>
             <div className="navbar__container">
 
-                <div>
-                    <h2 className='font-bold uppercase text-gradient'>
-                        BitLab
+                <div className="flex items-center">
+                    <video className="max-w-[40px]" loop autoPlay muted>
+                        <source src={apoloGame} type="video/mp4" />
+                    </video>
+                    <h2 className='font-bold uppercase text-gradient text-2xl'>
+                        itLab
                     </h2>
                 </div>
 
@@ -20,6 +24,9 @@ export const NavMenu = () => {
                     </li>
                     <li>
                         <a href="#games">Juegos</a>
+                    </li>
+                    <li>
+                        <a href="#team">Equipo</a>
                     </li>
                 </ul>
 

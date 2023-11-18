@@ -1,5 +1,5 @@
 
-import { NavMenu, HeroSection, AboutSection, GameSection, ContactSection } from './components'
+import { NavMenu, HeroSection, AboutSection, GameSection, ContactSection, TeamSection } from './components'
 
 const App = () => {
     return (
@@ -9,6 +9,7 @@ const App = () => {
             <div className='bg-content'>
                 <AboutSection />
                 <GameSection />
+                <TeamSection />
                 <ContactSection />
             </div>
 

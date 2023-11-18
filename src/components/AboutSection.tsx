@@ -14,11 +14,11 @@ export const AboutSection = () => {
                         <p>Se parte de la magia</p>
                     </div>
                 </Fade>
-                <div className="lg:flex justify-between items-center">
+                <div className="lg:flex justify-between items-center container">
                     <div className="max-w-xl">
                         <Fade direction="left" delay={400} duration={2000}>
                             <h3 className="text-3xl font-bold mb-4">Cómo Creamos Magia</h3>
-                            <div className="space-y-4">
+                            <div className="space-y-4 container px-4 md:p-0">
                                 {
                                     about_list.map(info => (
                                         <div>
