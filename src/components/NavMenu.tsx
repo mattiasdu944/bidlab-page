@@ -28,9 +28,12 @@ export const NavMenu = () => {
                     <li>
                         <a href="#team">Equipo</a>
                     </li>
+                    <li>
+                        <a href="#contact">Contacto</a>
+                    </li>
                 </ul>
 
-                <a className='btn-primary' href="#contact">Contacto</a>
+                <a className='btn-primary' target="_blank" href="https://bitlab-blog.deno.dev/">Blog</a>
 
             </div>
         </nav>
